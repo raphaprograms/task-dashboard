@@ -1,4 +1,4 @@
-export type TaskStatus = 'pending' | 'inprogress' | 'completed';
+export type TaskStatus = 'pending' | 'in-progress' | 'completed';
 
 export type TaskPriority = 'low' | 'medium' | 'high';
 
@@ -8,7 +8,7 @@ export type Task = {
     description: string;
     status: TaskStatus;
     priority: TaskPriority;
-    cratedAt: string;
+    createdAt: string;
     updatedAt: string;
 };
 
